@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1366px) {
+    .menu_line {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .arrow_down {
+        bottom: 12%;
+    }
+    
+    .responsive_foto img {
+        width: 500px;
+    }
+}
