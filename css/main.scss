@@ -1,0 +1,127 @@
+header {
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url(../img/mainBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.menu_line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 150px 15px 150px;
+    display: flex;
+    justify-content: space-between;
+    
+    img {
+        width: 150px;
+    }
+    
+    a {
+        color: #fff;
+        font-size: 14px;
+        margin-right: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.13em;
+        position:relative;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+        
+        &:hover {
+            color: darkorange;
+            border-bottom: 1px solid;
+        }
+    }
+    
+    &-main,
+    &-lang {
+        align-self: center;
+    }
+    
+    &-lang {
+        .active {
+            color: darkorange;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}
+
+.main_title {  
+    font-size: 14px;  
+    color: #ddd; 
+    position: absolute; 
+    left:10%; 
+    top:20%;  
+    margin: auto;  
+    
+    h1 {
+        font-family: 'Sunflower', sans-serif;
+        letter-spacing: .5em;
+        margin-bottom: 30px;
+        font-size: 60px;
+    }
+    
+    ul li {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+.responsive_foto {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    
+    img {
+        width: 700px;
+    }
+}
+
+.arrow_down {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    bottom: 7%;
+    animation: arrow ease-in-out 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: arrow  ease-in-out 4s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-transform-origin: 50% 50%;
+   -moz-animation: arrow  ease-in-out 4s;
+   -moz-animation-iteration-count: infinite;
+   -moz-transform-origin: 50% 50%;
+   -o-animation: arrow  ease-in-out 4s;
+   -o-animation-iteration-count: infinite;
+   -o-transform-origin: 50% 50%;
+   -ms-animation: arrow  ease-in-out 4s;
+   -ms-animation-iteration-count: infinite;
+   -ms-transform-origin: 50% 50%;
+    
+    
+    @keyframes arrow {
+        0% {
+            transform:  translate(-28px,-15px);
+        }
+        
+        50% {
+            transform:  translate(-24px,8px);
+        }
+        
+        100% {
+            transform:  translate(-28px,-15px); 
+        }
+    }
+
+    
+    
+    img {
+        width: 50px;
+    }
+}
