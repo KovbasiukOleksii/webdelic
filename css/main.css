@@ -320,4 +320,33 @@ header {
     .countdown > *:nth-child(4)::after {
       content: 'seconds'; }
 
+.graf {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px; }
+  .graf img {
+    margin-top: 60px;
+    width: 600px; }
+  .graf_story {
+    width: 600px; }
+    .graf_story h2 {
+      margin-top: 60px;
+      margin-bottom: 40px; }
+    .graf_story p {
+      padding-bottom: 20px;
+      line-height: 1.3em; }
+    .graf_story a {
+      background-color: darkorange;
+      padding: 10px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      color: black;
+      border-radius: 5px; }
+      .graf_story a:hover {
+        -webkit-box-shadow: 0px 0px 10px 0px black;
+        -moz-box-shadow: 0px 0px 10px 0px black;
+        box-shadow: 0px 0px 10px 0px black; }
+
 /*# sourceMappingURL=main.css.map */
