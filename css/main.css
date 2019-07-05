@@ -62,7 +62,6 @@ header {
     background-color: darkorange;
     padding: 10px 30px;
     font-size: 16px;
-    text-transform: uppercase;
     font-weight: bold;
     color: black;
     border-radius: 5px;
@@ -112,8 +111,7 @@ header {
 
 .story {
   padding-top: 70px;
-  text-align: center;
-  background: #F5F5F5; }
+  text-align: center; }
   .story_main {
     max-width: 1200px;
     margin: 0 auto;
@@ -121,7 +119,11 @@ header {
     justify-content: space-around;
     margin-bottom: 70px; }
     .story_main-item {
-      width: 250px; }
+      width: 250px;
+      padding-bottom: 10px; }
+      .story_main-item:hover {
+        transition: .2s;
+        border-bottom: 2px solid darkorange; }
     .story_main h3 {
       text-transform: capitalize;
       margin: 20px 0 10px 0; }
@@ -151,12 +153,23 @@ header {
         padding: 30px 0 30px 0; }
   .dev h2 {
     margin-top: 70px;
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   .dev p {
     padding-bottom: 30px;
     line-height: 1.4em; }
+  .dev .last_p {
+    padding-bottom: 50px; }
   .dev a {
-    color: #fff;
-    text-decoration: underline; }
+    background-color: darkorange;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    margin-left: 12px; }
+    .dev a:hover {
+      -webkit-box-shadow: 0px 0px 14px 0px white;
+      -moz-box-shadow: 0px 0px 14px 0px white;
+      box-shadow: 0px 0px 14px 0px white; }
 
 /*# sourceMappingURL=main.css.map */
