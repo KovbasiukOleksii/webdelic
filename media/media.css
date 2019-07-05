@@ -8,7 +8,16 @@
         bottom: 12%;
     }
     
+    .responsive_foto {
+        top: 150px;
+        right: 5%;
+    }
+    
     .responsive_foto img {
         width: 500px;
+    }
+    
+    .main_title {
+        left: 5%;
     }
 }

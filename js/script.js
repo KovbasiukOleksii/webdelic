@@ -101,7 +101,7 @@ var point = function(x, y) {
 		context.beginPath();
 		context.arc(m_x, m_y, 3, 0, 2 * Math.PI, false);
 		//context.fillStyle = 'rgba(' + 255 + ',' + 0 + ',' + 0 + ',' + 1 +')';
-		context.fillStyle = 'rgba(255, 255, 0,' + this.reverseVariable(Math.sqrt(this.getDistance(new point(x, y)))/250) +')';
+		context.fillStyle = 'rgba(90, 86, 209,' + this.reverseVariable(Math.sqrt(this.getDistance(new point(x, y)))/250) +')';
 		context.fill();	
 	}
 	//draw Line
@@ -115,7 +115,7 @@ var point = function(x, y) {
 			context.lineTo(m_nearPoint[i].getX(), m_nearPoint[i].getY());
 			context.lineWidth = 0.5;
 			//context.strokeStyle = 'rgba(' + 255 + ',' + 0 + ',' + 0 + ',' + 1 +')';
-			context.strokeStyle = 'rgba(255, 255, 0,' + this.reverseVariable(Math.sqrt(this.getDistance(new point(x, y)))/250) +')';
+			context.strokeStyle = 'rgba(90, 86, 209,' + this.reverseVariable(Math.sqrt(this.getDistance(new point(x, y)))/250) +')';
 			context.stroke();
 		}
 	}
