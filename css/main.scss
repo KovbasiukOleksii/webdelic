@@ -411,3 +411,51 @@ header {
         }
     }
 }
+
+.dev_action {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+    
+    h2 p {
+        line-height: 1.5em;
+    }
+}
+
+.countdown {
+    color: green;
+    font-size: 3em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  
+  > * {
+    position: relative;
+    padding: 0 0.075em 0.3em;
+    &::after {
+      text-transform: uppercase;
+      display: block;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      font-size: 0.25em;
+    }
+    &:nth-child(1)::after{
+      content:'days';
+    }
+    
+    &:nth-child(2)::after{
+      content:'hours';
+    }
+    
+    &:nth-child(3)::after{
+      content:'minutes';
+    }
+    
+    &:nth-child(4)::after{
+      content:'seconds';
+    }
+  }
+}

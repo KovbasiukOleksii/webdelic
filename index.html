@@ -21,6 +21,7 @@
   crossorigin="anonymous"></script>
    <script defer src="js/script.js"></script>
    <script defer src="js/script_menu.js"></script>
+   <script defer src="js/action.js"></script>
    <script src="js/wow.min.js"></script>
 </head>
 <body>
@@ -28,7 +29,7 @@
        <canvas id="myCanvas"></canvas>
         <div class="menu_line">
             <div class="menu_line-logo">
-                <img src="logo/webdelicwhite.svg" alt="logo">
+                <a href="#"><img src="logo/webdelicwhite.svg" alt="logo"></a>
             </div>
             <div id="menuLine" class="menu_line-main">
                 <a href="#dev" class="btn">РОЗРОБКА САЙТІВ</a>
@@ -89,10 +90,10 @@
     </section>
     <section id="dev" class="dev">
         <div class="dev_main">
-            <div class="dev_main-foto wow bounceInLeft"  data-wow-duration="2.5s"  data-wow-offset="400">
+            <div class="dev_main-foto wow bounceInLeft"  data-wow-duration="2.5s"  data-wow-offset="200">
                 <img src="img/iphone-mockup.png" alt="foto">
             </div>
-            <div class="dev_main-story wow fadeIn"  data-wow-duration="3.3s"  data-wow-offset="400">
+            <div class="dev_main-story wow fadeIn"  data-wow-duration="3.3s"  data-wow-offset="200">
                 <h2>Домінуючи над іншими</h2>
                 <p>Для більшості з нас ідея створення веб-сайту або створення щось пов'язане з веб-розробкою є складним завданням. Не треба турбуватися, тому що ми можемо запропонувати створення повнофункціонального та красивого веб-сайту.</p>
                 <p>Ми розробляємо інтуїтивні, динамічні програми для веб-матеріалів, використання творчих концепцій, заснованих на простоті та функціональності.</p>
@@ -102,17 +103,17 @@
         </div>
     </section>
     <div class="dev_faq">
-           <h2>Від замовлення до отримання:</h2>
+           <h2 class="wow fadeIn"  data-wow-duration="2s"  data-wow-offset="200">Від замовлення до отримання:</h2>
             <ol class="progress-meter">
-                <li class="progress-point done wow fadeIn"  data-wow-duration="2s"  data-wow-offset="300">Обрати необхідний тариф</li>
-                <li class="progress-point done wow fadeIn"  data-wow-duration="3s"  data-wow-offset="300">Отримати UI (UX опційно) дизайн Вашого проекту</li>
-                <li class="progress-point done wow fadeIn"  data-wow-duration="4s"  data-wow-offset="300">Внести правки/затвердити проект</li>
-                <li class="progress-point done wow fadeIn"  data-wow-duration="5s" data-wow-offset="300">Отримати готовий сайт</li>
+                <li class="progress-point done wow fadeIn"  data-wow-duration="2s"  data-wow-offset="200">Обрати необхідний тариф</li>
+                <li class="progress-point done wow fadeIn"  data-wow-duration="3s"  data-wow-offset="200">Отримати UI (UX опційно) дизайн Вашого проекту</li>
+                <li class="progress-point done wow fadeIn"  data-wow-duration="4s"  data-wow-offset="200">Внести правки/затвердити проект</li>
+                <li class="progress-point done wow fadeIn"  data-wow-duration="5s" data-wow-offset="200">Отримати готовий сайт</li>
             </ol>
     </div>
-    <h2 class="rate_title">Оберіть проект який максимально підходить для ваших потреб:</h2>
+    <h2 class="rate_title wow fadeIn"  data-wow-duration="2s"  data-wow-offset="100">Оберіть проект який максимально підходить для ваших потреб:</h2>
     <div class="dev_rate">
-        <div class="dev_rate-item wow fadeIn"  data-wow-duration="2s"  data-wow-offset="300">
+        <div class="dev_rate-item wow fadeIn"  data-wow-duration="2s"  data-wow-offset="200">
             <h3>Економ</h3>
             <p class="sub_title">Наш дизайн (шаблон) - Ваш контект</p>
             <p class="sub_title">Cайт для старту бізнесу і реклами його в інтернеті;</p>
@@ -128,7 +129,7 @@
             </ul>
             <a href="#">Дізнатися більше</a>
         </div>
-        <div class="dev_rate-item wow fadeIn"  data-wow-duration="3s"  data-wow-offset="300">
+        <div class="dev_rate-item wow fadeIn"  data-wow-duration="3s"  data-wow-offset="200">
             <h3>Візитка</h3>
             <p class="sub_title">Для продажу одиночних товарів, реклами компанії, окремих акцій або подій;</p>
             <h3>6 500 &#8372;</h3>
@@ -143,7 +144,7 @@
             </ul>
             <a href="#">Дізнатися більше</a>
         </div>
-        <div class="dev_rate-item wow fadeIn"  data-wow-duration="4s"  data-wow-offset="300">
+        <div class="dev_rate-item wow fadeIn"  data-wow-duration="4s"  data-wow-offset="200">
             <h3>Cайт каталог</h3>
             <p class="sub_title">Для демонстрації всього наявного каталогу продукції, ціна на яку варіативна</p>
             <h3>15 100 &#8372;</h3>
@@ -158,7 +159,7 @@
             </ul>
             <a href="#">Дізнатися більше</a>
         </div>
-        <div class="dev_rate-item wow fadeIn"  data-wow-duration="5s"  data-wow-offset="300">
+        <div class="dev_rate-item wow fadeIn"  data-wow-duration="5s"  data-wow-offset="200">
             <h3>Корпоративний сайт</h3>
             <p class="sub_title">Для побудови позитивного іміджу, отримання відповідної реакції від клієнтів</p>
             <h3>від 24 000 &#8372;</h3>
@@ -173,6 +174,17 @@
             </ul>
             <a href="#">Дізнатися більше</a>
         </div>
+    </div>
+    <div class="dev_action wow fadeIn"  data-wow-duration="4s"  data-wow-offset="100">
+       <h2>Акція</h2>
+       <p>зроби замовлення до 31.07.2019 та отримай знижку 10%</p>
+       <p>до кінця акції залишилось:</p>
+        <time id="counter-1" datetime="2019-07-31" class="countdown">
+            <span class="days"><span>0</span><span>0</span></span>:
+            <span class="hours"><span>0</span><span>0</span></span>:
+            <span class="minutes"><span>0</span><span>0</span></span>:
+            <span class="seconds"><span>0</span><span>0</span></span>
+        </time>
     </div>
     <section class="graf">
     </section>
