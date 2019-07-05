@@ -9,15 +9,16 @@ header {
   overflow: hidden; }
 
 .menu_line {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   top: 0;
   left: 0;
   right: 0;
   padding: 10px 150px 10px 150px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background: #000; }
   .menu_line:hover {
-    background: #000;
     transition: .5s; }
   .menu_line img {
     width: 150px; }
@@ -133,7 +134,7 @@ header {
       font-weight: none;
       color: #909090; }
   .story h2 {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     font-family: 'Roboto', sans-serif; }
 
 .dev {
@@ -149,10 +150,11 @@ header {
     .dev_main-foto {
       width: 100%; }
       .dev_main-foto img {
+        margin-top: 50px;
         width: 300px;
         padding: 30px 0 30px 0; }
   .dev h2 {
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 30px; }
   .dev p {
     padding-bottom: 30px;

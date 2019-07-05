@@ -13,11 +13,15 @@
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/settings/settings.css">
    <link rel="stylesheet" href="media/media.css">
+   <!-- CSS Animate ================================== -->
+   <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
    <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
    <script defer src="js/script.js"></script>
+   <script defer src="js/script_menu.js"></script>
+   <script src="js/wow.min.js"></script>
 </head>
 <body>
    <header>
@@ -26,12 +30,12 @@
             <div class="menu_line-logo">
                 <img src="logo/webdelicwhite.svg" alt="logo">
             </div>
-            <div class="menu_line-main">
-                <a href="#" class="btn">РОЗРОБКА САЙТІВ</a>
+            <div id="menuLine" class="menu_line-main">
+                <a href="#dev" class="btn">РОЗРОБКА САЙТІВ</a>
                 <a href="#" class="btn">Графічний дизайн</a>
                 <a href="#" class="btn">Розкрутка сайту (SEO)</a>
-                <a href="#" class="btn">підтримка сайту</a>
                 <a href="#" class="btn">Про нас</a>
+                <a href="#" class="btn">Контакти</a>
             </div>
             <div class="menu_line-lang">
                 <a href="#" class="active">UA</a>
@@ -54,12 +58,12 @@
         <div class="responsive_foto">
             <img src="img/responsive.png" alt="foto">
         </div>
-        <div class="arrow_down">
-            <a href="#"><img src="img/icon/iconfinder_up_4829875.png" alt="i"></a>
+        <div id="dropDown" class="arrow_down">
+            <a href="#story"><img src="img/icon/iconfinder_up_4829875.png" alt="i"></a>
         </div>
     </header>
-    <section class="story">
-        <h2>Історія нашого успіху</h2>
+    <section id="story" class="story">
+        <h2 class="wow fadeIn"  data-wow-duration="2.5s">Історія нашого успіху</h2>
         <div class="story_main">
             <div class="story_main-item">
                 <img src="img/icon/teamgroupmeeting%20business.png" alt="icon">
@@ -83,7 +87,7 @@
             </div>
         </div>
     </section>
-    <section class="dev">
+    <section id="dev" class="dev">
         <div class="dev_main">
             <div class="dev_main-foto">
                 <img src="img/iphone-mockup.png" alt="foto">
