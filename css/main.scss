@@ -9,11 +9,6 @@ header {
     overflow: hidden;
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
 .menu_line {
     position: absolute;
     top: 0;
@@ -252,6 +247,11 @@ h2 {
             box-shadow: 0px 0px 14px 0px rgba(255,255,255,1);
         }
     }
+}
+
+.rate_title {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .dev_faq {

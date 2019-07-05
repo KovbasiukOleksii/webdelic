@@ -8,10 +8,6 @@ header {
   background-repeat: no-repeat;
   overflow: hidden; }
 
-h2 {
-  text-align: center;
-  margin-bottom: 50px; }
-
 .menu_line {
   position: absolute;
   top: 0;
@@ -174,6 +170,10 @@ h2 {
       -webkit-box-shadow: 0px 0px 14px 0px white;
       -moz-box-shadow: 0px 0px 14px 0px white;
       box-shadow: 0px 0px 14px 0px white; }
+
+.rate_title {
+  text-align: center;
+  margin-bottom: 50px; }
 
 .dev_faq {
   width: 1200px;
