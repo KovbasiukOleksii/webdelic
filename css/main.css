@@ -242,7 +242,7 @@ h2 {
   margin-bottom: 50px; }
   .dev_rate-item {
     padding: 30px;
-    height: 300px;
+    height: 460px;
     width: 230px;
     align-self: center;
     border-radius: 10px;
@@ -252,6 +252,8 @@ h2 {
     .dev_rate-item:hover {
       transition: .5s;
       cursor: pointer;
+      width: 233px;
+      height: 465px;
       -webkit-box-shadow: 0px 0px 14px 0px black;
       -moz-box-shadow: 0px 0px 14px 0px black;
       box-shadow: 0px 0px 14px 0px black; }
@@ -264,5 +266,22 @@ h2 {
       font-size: 12px;
       color: grey;
       line-height: 1.3em; }
+    .dev_rate-item ul {
+      margin-bottom: 30px; }
+    .dev_rate-item ul li {
+      list-style: url(../img/icon/accept.png);
+      margin-bottom: 10px;
+      margin-left: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #E5E5E5;
+      font-size: 13px;
+      color: grey; }
+    .dev_rate-item a {
+      text-align: center;
+      padding: 10px 20px;
+      background-color: darkorange;
+      border-radius: 50px;
+      color: black;
+      font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
